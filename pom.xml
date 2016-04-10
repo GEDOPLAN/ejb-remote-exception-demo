@@ -80,6 +80,22 @@
     </profile>
 
     <profile>
+      <id>as_glassfish-4.1</id>
+      <properties>
+        <server.type>glassfish</server.type>
+        <server.version>4.1</server.version>
+      </properties>
+      <dependencies>
+        <dependency>
+          <groupId>de.gedoplan</groupId>
+          <artifactId>baselibs-glassfish</artifactId>
+          <version>4.1_1-SNAPSHOT</version>
+          <scope>test</scope>
+        </dependency>
+      </dependencies>
+    </profile>
+
+    <profile>
       <id>as_wildfly-8.1</id>
       <properties>
         <server.type>wildfly</server.type>
